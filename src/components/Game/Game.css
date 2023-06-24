@@ -1,0 +1,57 @@
+.video-game {
+  display: flex;
+  width: 360px;
+}
+.video {
+  width: 100%;
+}
+.game-card {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 12px;
+}
+.info-game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img-game > img {
+  width: 170px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.content-game {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 12px;
+  justify-content: center;
+}
+.description-game{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+          line-clamp: 4; 
+  -webkit-box-orient: vertical;
+}
+.studio-game {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-game{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.studio{
+    font-weight: bold;
+    color:blueviolet;
+}
